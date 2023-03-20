@@ -1,4 +1,4 @@
-#!name= 微博净化
+#!name= 微博净化2
 #!desc=微博官方App净化
 #!system=ios
 
@@ -41,8 +41,6 @@ URL-REGEX,^https?:\/\/wx[0-9]\.sinaimg\.cn\/large\/.+\.gif$,REJECT
 ^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/comments\/get_comments_order_by_hot data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
 ^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_channel_list data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
 ^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_video_list data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-
-
 
 [MITM]
 hostname = %APPEND% *.uve.weibo.com, *api.weibo.cn, *api.weibo.com, h5.sinaimg.cn, new.vip.weibo.cn, *.sc.weibo.com, captcha.weibo.com, wx*.sinaimg.cn, js.t.sinajs.cn, *.e.weibo.com
