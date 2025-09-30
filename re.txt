@@ -5,9 +5,6 @@ aid.m.taobao.com
 simg.s.weibo.com
 ossgw.alicdn.com
 c3-pha.amap.com
-c3.amap.com
-c2.amap.com
-c1.amap.com
 httpdns.baidubce.com
 mdn.alipayobjects.com
 faas-image.amap.com
